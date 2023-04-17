@@ -1,0 +1,65 @@
+body{
+    width: 1440px; height: 800px;  
+    background-image: url(bg-desktop.svg);
+     background-color: #684BB1
+}
+.mein-div{
+    display: flex;
+    
+}
+.indiv-box1{
+    display: flex;
+    flex-direction: column;
+    display: block;
+    margin-left: 85px;
+    margin-top: 64px;
+}
+.logo{ width: 200px; height: 32px;} 
+.indiv-img{width: 696px; height: 492px;
+    margin-top: 110px;
+}
+.indiv-box2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 232px;
+    margin-left: 59px;    
+    margin-right: 85px;
+    width: 700px;
+    height: 740px;
+}
+h1{ line-height: 60px; font-size: 40px;  color: #FF52C1; 
+font-family: 'Poppins', sans-serif;}
+p{ color: #007DFA; 
+    font-size: 18px; line-height: 27px; 
+    font-family: 'Open Sans', sans-serif;}
+button {
+    border-radius: 28px; width: 150px; height: 56px; border: 0;
+    cursor: pointer; color:  
+    #684BB1; background-color: #E880E8;}
+button:hover{ background-color: #9952FF; color: #FF52C1; }
+.icon{
+    display: flex;
+    justify-content: end;
+    margin-top: 184px;
+    font-size: 40px;}
+.fab{
+    margin: 16px;
+    display: flex;
+    width: 40px; height: 40px;
+    border-radius: 28px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;}
+.fab:hover{ border-color:  #FF52C1; color:  #FF52C1;}
+.facebook{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;}
+.twitter{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;}
+.instagram{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;}
